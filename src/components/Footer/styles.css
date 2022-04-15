@@ -1,0 +1,33 @@
+.rich-dacan 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 200px;
+  
+  padding: 30px;
+
+  border-bottom: #000 solid 30px;
+  border-top: #000 solid 5px;
+  background-color: #fff;
+  color: #000;
+
+  font-size: 1rem;
+}
+
+.rich-dacan:hover
+{
+  background-color: #868E96;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px){
+  .rich-dacan 
+  {
+    font-size: 2.5rem;
+     width: 100vw;
+  }
+}
+
+
