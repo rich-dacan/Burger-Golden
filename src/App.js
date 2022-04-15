@@ -1,13 +1,13 @@
 import './App.css';
 import 'react-toastify/dist/ReactToastify.min.css';
 
-
 import { useState, useEffect } from 'react';
+import { ToastContainer } from 'react-toastify';
 
 import Cart        from './components/Cart';
 import Header      from './components/Header';
+import Footer      from './components/Footer';
 import ProductList from './components/ListProduct';
-import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -54,6 +54,7 @@ function App() {
         </aside>
         
       </main>   
+      <Footer/>
       <ToastContainer
         position="top-center"
         autoClose={5000}
