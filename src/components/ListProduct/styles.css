@@ -1,0 +1,36 @@
+.list__products
+{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+
+  overflow-x: scroll;
+
+  max-width: 100vw;
+
+}
+
+.list__products::-webkit-scrollbar {
+  height: 5px;       
+}
+
+.list__products::-webkit-scrollbar-thumb {
+  background-color: #27AE60;    
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 1024px){
+
+  .list__products
+  {
+    
+    flex-wrap: wrap;
+
+    max-width: 1200px;
+  }
+}
