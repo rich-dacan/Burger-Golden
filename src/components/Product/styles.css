@@ -13,13 +13,14 @@
   box-sizing: border-box;
   border-radius: 5px;
   
-  transition: all ease .5s;
+  transition: all ease-in .5s;
   
 }
 
   .li__container:hover
   {
     border: 2px solid #93D7AF;
+    transform: scale(1.05);
   }
 
 .img__container
