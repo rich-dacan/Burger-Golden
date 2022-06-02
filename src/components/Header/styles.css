@@ -1,12 +1,12 @@
 header
 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 
   height: 140px;
-  width: 100vw;
+  width: 98vw;
 
   background: #F5F5F5;
 }

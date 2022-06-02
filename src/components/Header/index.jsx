@@ -1,10 +1,14 @@
 import './styles.css';
 import logo         from '../../assets/image/logo.svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Header = ({products, filteredProducts, setFilteredProducts}) => {
 
   const [search, setSearch] = useState('');
+
+  useEffect(()=>{
+    showProducts(search)
+  },[search])
   
   function showProducts () {
 
