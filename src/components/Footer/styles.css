@@ -26,7 +26,9 @@
   .rich-dacan 
   {
     font-size: 2.5rem;
-     width: 100vw;
+    width: 95vw;
+    justify-content: center;
+    margin: 0 auto;
   }
 }
 
